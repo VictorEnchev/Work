@@ -1,5 +1,8 @@
 package com.onto.javacourse.intro.arrayreverse;
 
+/**
+ * Contains one method for reversing an array of integers
+ */
 public class ArrayReverse {
     /**
      * Reverses a given array of integers
