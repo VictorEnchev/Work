@@ -14,13 +14,6 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 class ArrayProcessingTest {
-    private Logger logger;
-
-    @BeforeEach
-    void setUp(){
-        mockLogger = mock(Logger.class);
-    }
-
     @Test
     void test_ArrayProcessing_getMinElementIndex_WithTwoIdenticalSmallestValues(){
         int[] arr  = {2, 1, 3, 5, 6, 3, 1};
