@@ -10,6 +10,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>Hangman</module>
+        <module>Introducion</module>
+        <module>ObjectsInJava</module>
+        <module>LibrariesAndClasspath</module>
     </modules>
 
     <properties>
