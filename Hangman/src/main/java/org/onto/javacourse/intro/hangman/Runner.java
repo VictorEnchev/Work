@@ -47,7 +47,7 @@ public class Runner {
      * @throws IOException if file is not present at the given directory
      */
     private static String getRandomWord() throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/hangman words.txt"));
+        BufferedReader reader = new BufferedReader(new FileReader("D:\\Programming\\Personal Projects\\Internership\\Work\\Hangman\\src\\main\\resources\\hangman words.txt"));
 
         List<String> words = new ArrayList<>();
         String currWord = reader.readLine();

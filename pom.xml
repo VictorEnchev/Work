@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>Hangman</module>
-        <module>Introducion</module>
+        <module>Introduction</module>
         <module>ObjectsInJava</module>
         <module>LibrariesAndClasspath</module>
     </modules>
@@ -34,10 +34,12 @@
             <artifactId>slf4j-api</artifactId>
             <version>2.0.9</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.4.11</version>
+            <version>1.5.18</version>
+            <scope>compile</scope>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
@@ -65,7 +67,7 @@
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-checkstyle-plugin</artifactId>
-            <version>3.5.0</version>
+            <version>3.6.0</version>
         </dependency>
 
         <dependency>
