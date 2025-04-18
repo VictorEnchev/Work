@@ -1,6 +1,5 @@
-package com.onto.javacourse.exceptions;
+package com.onto.javacourse.exceptions.sumator;
 
-import com.onto.javacourse.exceptions.sumator.SummingLargeNumbers;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
