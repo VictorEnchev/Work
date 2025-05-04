@@ -1,4 +1,4 @@
-package intro.findingarraysmedian;
+package findingarraysmedian;
 
 import org.junit.jupiter.api.Test;
 

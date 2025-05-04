@@ -1,4 +1,4 @@
-package intro.randomstirngwithgivenlength;
+package randomstirngwithgivenlength;
 
 import com.onto.javacourse.intro.randomstringswithgivenlegth.RandomString;
 import org.junit.jupiter.api.Assertions;

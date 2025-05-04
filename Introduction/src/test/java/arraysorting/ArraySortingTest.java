@@ -1,4 +1,4 @@
-package intro.arraysorting;
+package arraysorting;
 
 import net.bytebuddy.implementation.bytecode.collection.ArrayAccess;
 import org.junit.jupiter.api.Assertions;

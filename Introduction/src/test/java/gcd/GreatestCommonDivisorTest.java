@@ -1,4 +1,4 @@
-package intro.gcd;
+package gcd;
 
 import org.junit.jupiter.api.Test;
 
