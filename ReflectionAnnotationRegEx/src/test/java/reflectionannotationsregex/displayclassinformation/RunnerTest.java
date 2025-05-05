@@ -1,10 +1,7 @@
-package reflectionannotationsregex;
+package reflectionannotationsregex.displayclassinformation;
 
 import nl.altindag.log.LogCaptor;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import reflectionannotationsregex.displayclassinformation.RandomClass;
-import reflectionannotationsregex.displayclassinformation.Runner;
 
 import static org.junit.jupiter.api.Assertions.*;
 
