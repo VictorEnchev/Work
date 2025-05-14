@@ -40,4 +40,6 @@ class ChildClassTest {
     void testCallCharMethodCorrectInvokingTheMethod() throws InvocationTargetException, IllegalAccessException, NoSuchMethodException {
         assertEquals('v', childClass.callCharMethod());
     }
+
+
 }
