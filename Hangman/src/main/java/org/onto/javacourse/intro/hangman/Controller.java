@@ -1,9 +1,14 @@
 package org.onto.javacourse.intro.hangman;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * Controller class that combines both the Model and the View class and
  */
 public class Controller {
+    private static final Logger LOG = LoggerFactory.getLogger(Controller.class);
+
     private Model model;
     private View view;
     private int wrongTries;
@@ -15,7 +20,7 @@ public class Controller {
     public Controller(String computerWord) {
         model = new Model(computerWord);
         view = new View(computerWord);
-        wrongTries = 9;
+        wrongTries = 6;
     }
 
     /**
@@ -52,6 +57,7 @@ public class Controller {
             }
         }
 
+        LOG.info("You can make no more than %d mistakes.".formatted(wrongTries));
         return message;
     }
 }
