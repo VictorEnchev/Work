@@ -27,7 +27,7 @@ public class Runner {
 
         String word = getRandomWord();
         LOG.info("Word generated! Ready to begin");
-        Controller controller = new Controller(word);
+        com.onto.javacourse.intro.hangman.Controller controller = new com.onto.javacourse.intro.hangman.Controller(word);
 
         String input = reader.readLine();
         String message = controller.answerByPassedArgument(input);
