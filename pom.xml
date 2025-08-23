@@ -15,6 +15,7 @@
         <module>LibrariesAndClasspath</module>
         <module>ReflectionAnnotationRegEx</module>
         <module>Collections</module>
+        <module>Exceptions</module>
     </modules>
 
     <properties>
