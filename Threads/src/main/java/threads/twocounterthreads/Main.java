@@ -7,7 +7,7 @@ public class Main {
         AtomicBoolean flag = new AtomicBoolean(false);
         Thread thread1 = new Thread(new CounterThread(6,1000, flag));
         thread1.setName("V");
-        Thread thread2 = new Thread(new CounterThread(6, 740, flag));
+        Thread thread2 = new Thread(new CounterThread(6, 1000, flag));
         thread2.setName(" T");
 
         thread1.start();
