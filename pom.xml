@@ -17,6 +17,7 @@
         <module>Collections</module>
         <module>Exceptions</module>
         <module>DesignPatterns</module>
+        <module>Threads</module>
     </modules>
 
     <properties>
